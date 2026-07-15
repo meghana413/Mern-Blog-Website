@@ -6,7 +6,7 @@ const {
   handleGetComments,
   handleDeleteComment,
   handleEditComment,
-} = require("../controllers/commentController");
+} = require("../controllers/commentcontroller");
 const { authmiddleware } = require("../middlewares/authmiddleware");
 
 router.post("/:id/comment", authmiddleware, handleAddComment);
