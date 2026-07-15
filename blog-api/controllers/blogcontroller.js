@@ -2,41 +2,58 @@ const Blog = require("../models/Blog");
 const cloudinary = require("../config/cloudinary");
 const fs = require("fs");
 
+// const handlecreateBlog = async (req, res) => {
+//   try {
+//     const { title, content, category } = req.body;
+
+//     const tags = JSON.parse(req.body.tags);
+
+//     let imageUrl = "";
+
+//     if (req.file) {
+//       const result = await cloudinary.uploader.upload(req.file.path, {
+//         folder: "blog-images",
+//       });
+
+//       imageUrl = result.secure_url;
+
+//       fs.unlinkSync(req.file.path);
+//     }
+
+//     const blog = await Blog.create({
+//       title,
+//       content,
+//       category,
+//       tags,
+//       coverImage: imageUrl,
+//       author: req.user.id,
+//     });
+
+//     return res.status(201).json({
+//       success: true,
+//       message: "Blog created successfully",
+//       blog,
+//     });
+//   } catch (error) {
+//     return res.status(500).json({
+//       success: false,
+//       message: error.message,
+//     });
+//   }
+// };
 const handlecreateBlog = async (req, res) => {
   try {
-    const { title, content, category } = req.body;
+    console.log(req.body);
+    console.log(req.file);
 
-    const tags = JSON.parse(req.body.tags);
-
-    let imageUrl = "";
-
-    if (req.file) {
-      const result = await cloudinary.uploader.upload(req.file.path, {
-        folder: "blog-images",
-      });
-
-      imageUrl = result.secure_url;
-
-      fs.unlinkSync(req.file.path);
-    }
-
-    const blog = await Blog.create({
-      title,
-      content,
-      category,
-      tags,
-      coverImage: imageUrl,
-      author: req.user.id,
-    });
-
-    return res.status(201).json({
-      success: true,
-      message: "Blog created successfully",
-      blog,
+    return res.json({
+      body: req.body,
+      file: req.file,
+      user: req.user,
     });
   } catch (error) {
+    console.error(error);
     return res.status(500).json({
-      success: false,
       message: error.message,
     });
   }
