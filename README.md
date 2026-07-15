@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 📝 MERN Blog Website
 
 A full-stack blogging platform built with the **MERN Stack** that allows users to create, manage, and share blogs with a modern and responsive interface.
@@ -15,9 +14,8 @@ Backend API: _Coming Soon_
 
 ---
 
-## 📸 Screenshots
-
-> Add screenshots after deployment.
+###Live link
+-https://mern-blog-website-blond.vercel.app/
 
 - 🏠 Home Page
 - ✍️ Create Blog
