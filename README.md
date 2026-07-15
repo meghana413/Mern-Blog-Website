@@ -4,16 +4,6 @@ A full-stack blogging platform built with the **MERN Stack** that allows users t
 
 Users can register, log in securely, upload cover images, interact with blogs through likes and comments, manage their profiles, and discover content using search and pagination.
 
----
-
-## 🚀 Live Demo
-
-Frontend: _Coming Soon_
-
-Backend API: _Coming Soon_
-
----
-
 ###Live link
 -https://mern-blog-website-blond.vercel.app/
 
