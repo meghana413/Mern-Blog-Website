@@ -8,7 +8,7 @@ const cors = require("cors");
 const connectdatabase = require("./config/database");
 const router = require("./routes/authroutes");
 const blogRoutes = require("./routes/blogroutes");
-const commentRoutes = require("./routes/commentRoutes");
+const commentRoutes = require("./routes/commentroutes");
 dotenv.config();
 connectdatabase();
 
