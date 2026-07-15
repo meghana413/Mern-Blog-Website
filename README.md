@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 📝 MERN Blog Website
 
 A full-stack blogging platform built with the **MERN Stack** that allows users to create, manage, and share blogs with a modern and responsive interface.
@@ -200,3 +201,7 @@ Feel free to fork the repository and submit a pull request.
 GitHub: https://github.com/meghana413
 
 ---
+=======
+# Mern-Blog-Website
+This is a full stack mern blogging platform using node.js, react and mongoDB.
+>>>>>>> f2524b4cee2a67cd69d3951ee22acefef3abc3e1

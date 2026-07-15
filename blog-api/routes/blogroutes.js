@@ -9,7 +9,7 @@ const {
   handleDeleteBlogById,
   handleLikeBlog,
   handleGetMyBlogs,
-} = require("../controllers/blogController");
+} = require("../controllers/blogcontroller");
 const {
   authmiddleware,
   optionalAuth,
