@@ -1,0 +1,29 @@
+// {
+//     "name": "santhosh",
+//     "email": "santhosh@gmail.com",
+//     "password": "123456789",
+//     "bio": "Iam a very good student.",
+//     "avatar": "Iron-man"
+// }
+// {
+//     "title": "New-app Chatbot",
+//     "content": "This is a chatting and user-friendly talking robot app.",
+//     "category": "Programming",
+//     "tags": ["node.js", "js", "mongodb"]
+// }
+1.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhNDZhNGQyOTEwMjhmZDEzMGI3NmZkOCIsImlhdCI6MTc4MzAxNTQ4NywiZXhwIjoxNzgzNjIwMjg3fQ.oIg9owWWDtjgW82SCrGh4lH9uTUY6yykz-kw_PMHmsY
+2.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhNDZiNGUyNjBmMGFjYzA4NWY0YTM1YyIsImlhdCI6MTc4MzAxODcyOSwiZXhwIjoxNzgzNjIzNTI5fQ.YwqedAh67Tvcl_1OTRCTLs2CqHWcrPeIrqgHoWBg8fQ
+            "_id": "6a46b30555e406442a0096f7",
+{
+    "name": "Rani bharadwaj",
+    "email": "santhosh@gmail.com",
+    "password": "123456789",
+    "bio": "Iam a very good student.",
+    "avatar": "Iron-man"
+}6a4669a0e7d88b292c1dbf56
+{
+    "title": "AI Revolution",
+    "content": "This is a chatting and user-friendly talking robot app.",
+    "category": "Programming",
+    "tags": ["node.js", "js", "mongodb"]
+}
