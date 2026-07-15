@@ -1,8 +1,8 @@
 "use client";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import api from "../../../lib/api";
 
-function createBlog() {
+function CreateBlog() {
   const [blogData, setBlogData] = useState({
     title: "",
     content: "",
@@ -142,4 +142,4 @@ function createBlog() {
   );
 }
 
-export default createBlog;
+export default CreateBlog;

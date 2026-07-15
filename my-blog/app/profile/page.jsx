@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import api from "../../lib/api";
 
-function profilePage() {
+function ProfilePage() {
   const [userData, setUserData] = useState({
     name: "",
     email: "",
@@ -65,4 +65,4 @@ function profilePage() {
   );
 }
 
-export default profilePage;
+export default ProfilePage;

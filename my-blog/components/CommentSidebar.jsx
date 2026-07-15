@@ -9,12 +9,6 @@ function CommentSidebar({ open, onClose, blog }) {
   const [editingId, setEditingId] = useState(null);
   const [editedComment, setEditedComment] = useState("");
 
-  useEffect(() => {
-    if (blog) {
-      setComments(blog.comments || []);
-    }
-  }, [blog]);
-
   const handleComment = async () => {
     if (!comment.trim()) return;
 
@@ -57,6 +51,11 @@ function CommentSidebar({ open, onClose, blog }) {
       console.log(error.response?.data);
     }
   };
+  useEffect(() => {
+    if (blog) {
+      setComments(blog.comments || []);
+    }
+  }, [blog]);
 
   if (!blog) return null;
 

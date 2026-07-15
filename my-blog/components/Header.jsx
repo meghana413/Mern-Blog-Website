@@ -7,7 +7,7 @@ function Header() {
   useEffect(() => {
     const token = localStorage.getItem("token");
     setIsLoggedIn(!!token);
-  });
+  }, []);
   const handleLogout = () => {
     localStorage.removeItem("token");
     window.location.href = "/";
